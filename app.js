@@ -2,7 +2,7 @@
 let amigos = [];
 
 // Para agregar a los amigos en la lista
-function agregarAmigos(){
+function agregarAmigo(){
     //Se obtiene el valor input
     let input = document.getElementById("amigo");
     let nombre = input.value;
