@@ -1,1 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// Creamos la lista de amigos vacía para almacenar el nombre de los participantes
+let listaAmigos = [];
+
