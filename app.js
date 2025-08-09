@@ -41,3 +41,14 @@ function renovarLista() {
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo (){
+    if (amigos.length === 0){
+        alert("No hay nombres para jugar. Por favor ingresa nombres");
+        return;
+    }
+    let resultado = document.getElementById("resultado");
+    let index = Math.floor(Math.random() * amigos.length);
+    let amigoSecreto = amigos[index]
+    resultado.innerHTML = `🎉 Tu amigo secreto es: <strong>${amigoSecreto}</strong> 🎉`;
+}
